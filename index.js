@@ -41,7 +41,7 @@ var data = [
     .axes({"ticks" : false})
     .draw()
 
-//Reutilizamos desde: https://jsfiddle.net/irislieuw/vxqpxfna    
+//Reutilizamos desde: https://jsfiddle.net/irislieuw/vxqpxfna 
 var data = [
     {"year": 1991, "name":"alpha", "value": 15},
     {"year": 1992, "name":"alpha", "value": 34},
