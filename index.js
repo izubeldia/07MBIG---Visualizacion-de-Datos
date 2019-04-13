@@ -61,7 +61,7 @@ var data = [
     {"year": 1992, "name":"delta2", "value": 35}
   ]
 
-  var visualization = d3plus.viz()
+var visualization = d3plus.viz()
     .container("#viz3")
     .data(data)
     .type("box")
@@ -75,3 +75,4 @@ var data = [
         "value": ["scatter","box"]
       }])
     .draw()
+
