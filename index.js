@@ -75,4 +75,12 @@ var visualization = d3plus.viz()
         "value": ["scatter","box"]
       }])
     .draw()
+    
+var visualization = d3plus.viz()
+      .container("#viz4")
+      .data(data)
+      .type("tree_map")
+      .id("name")
+      .size("value")
+      .draw()
 
