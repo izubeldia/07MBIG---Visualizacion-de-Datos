@@ -75,7 +75,8 @@ var visualization = d3plus.viz()
         "value": ["scatter","box"]
       }])
     .draw()
-    
+
+//treeMap
 var visualization = d3plus.viz()
       .container("#viz4")
       .data(data)
